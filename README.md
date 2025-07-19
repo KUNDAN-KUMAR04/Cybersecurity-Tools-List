@@ -20,6 +20,7 @@ A comprehensive and categorized index of essential tools for ethical hacking, cy
     - [Threat Intelligence](#threat-intelligence)
     - [OSINT (Open Source Intelligence)](#osint-open-source-intelligence)
     - [Other Utilities](#other-utilities)
+- [Notable Indian Cybersecurity Initiatives & Companies](#notable-indian-cybersecurity-initiatives--companies)
 - [License](#license)
 
 ## Disclaimer
@@ -90,6 +91,11 @@ We welcome contributions! If you know of a great tool that's not listed, or if y
     * *License:* Apache License 2.0
 
 ### Web Application Hacking
+* **[Broken-Auth-Scanner](https://github.com/s0md3v/Broken-Auth-Scanner)** (Indian Origin)
+    * *Description:* A vulnerability scanner specifically designed to detect broken authentication and session management vulnerabilities in web applications.
+    * *Features:* Scans for various authentication flaws, supports custom headers and proxies.
+    * *Operating Systems:* Cross-platform (Python).
+    * *License:* MIT License
 * **[Burp Suite](https://portswigger.net/burp)**
     * *Description:* An integrated platform for performing security testing of web applications. (Community Edition is free, Professional is paid).
     * *Features:* HTTP proxy, scanner, intruder, repeater, sequencer, decoder, comparer.
@@ -115,6 +121,11 @@ We welcome contributions! If you know of a great tool that's not listed, or if y
     * *Features:* Highly configurable, supports various encoders, multiple output formats, proxy support.
     * *Operating Systems:* Cross-platform (Python).
     * *License:* GPLv2
+* **[XSStrike](https://github.com/s0md3v/XSStrike)** (Indian Origin)
+    * *Description:* An advanced XSS detection suite. It detects, bypasses, and reports Cross-Site Scripting vulnerabilities.
+    * *Features:* Context-aware XSS detection, WAF bypasses, payload generation, custom payload support.
+    * *Operating Systems:* Cross-platform (Python).
+    * *License:* MIT License
 
 ### Wireless Hacking
 * **[Aircrack-ng](https://www.aircrack-ng.org/)**
@@ -245,6 +256,11 @@ We welcome contributions! If you know of a great tool that's not listed, or if y
     * *Features:* Data mining, information gathering, relationship visualization.
     * *Operating Systems:* Cross-platform.
     * *License:* Commercial (Community Edition available)
+* **[Osintgram](https://github.com/sdushantha/osintgram)** (Indian Origin)
+    * *Description:* An OSINT tool to collect information from an Instagram account, including public posts, followers, following, stories, etc., without requiring an API key.
+    * *Features:* Collects various data points, avoids API limitations, supports export.
+    * *Operating Systems:* Cross-platform (Python).
+    * *License:* MIT License
 * **[Shodan](https://www.shodan.io/)**
     * *Description:* A search engine for Internet-connected devices. Finds devices like servers, routers, webcams, and industrial control systems.
     * *Features:* Device search, network mapping, vulnerability identification.
@@ -262,6 +278,11 @@ We welcome contributions! If you know of a great tool that's not listed, or if y
     * *License:* GPLv3
 
 ### Other Utilities
+* **[Gitleaks](https://github.com/zricethezav/gitleaks)**
+    * *Description:* A SAST (Static Application Security Testing) tool for finding hardcoded secrets like passwords, API keys, and tokens in Git repositories (history and current).
+    * *Features:* Scans Git history, supports various secret types, highly configurable, pre-commit hooks.
+    * *Operating Systems:* Cross-platform.
+    * *License:* MIT License
 * **[hping3](http://www.hping.org/)**
     * *Description:* A command-line oriented TCP/IP packet assembler/analyzer. Useful for firewall testing, port scanning, network testing using different protocols, and more.
     * *Features:* Custom packet creation, firewall testing, DoS testing.
@@ -277,6 +298,18 @@ We welcome contributions! If you know of a great tool that's not listed, or if y
     * *Features:* Portable development environments, supports VirtualBox, VMware, Docker, automatic provisioning.
     * *Operating Systems:* Cross-platform.
     * *License:* MIT License
+
+## Notable Indian Cybersecurity Initiatives & Companies
+
+While this repository primarily focuses on open-source tools, it's worth noting the significant contributions and innovations emerging from India's cybersecurity ecosystem. Many Indian companies and research institutions are actively involved in developing proprietary security solutions, fostering talent, and contributing to global cybersecurity knowledge. This section highlights a few examples (not an exhaustive list of tools):
+
+* **Cyware:** (New York/Gurgaon-based) Focuses on cyber fusion centers, threat intelligence automation, and security orchestration, automation, and response (SOAR) platforms.
+* **Indian Institutes of Technology (IITs):** Various IITs across India have active cybersecurity research labs contributing to cryptography, network security, and secure systems design, often publishing research papers and sometimes open-sourcing components of their work.
+* **K7 Computing:** (Chennai-based) Provides a range of cybersecurity products including endpoint security, total security, and other IT security solutions.
+* **Quick Heal Technologies:** (Pune-based) A prominent Indian cybersecurity company offering antivirus, endpoint security, and network security solutions for consumers and enterprises.
+* **TAC Security:** (Chandigarh/San Francisco-based) Specializes in Vulnerability Management as a Service (VMaaS) platforms, providing AI-powered vulnerability management solutions.
+
+*Note: The companies listed above primarily develop commercial/proprietary solutions and are not open-source tools listed for direct use in the categories above.*
 
 ## License
 
